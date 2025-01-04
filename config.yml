@@ -1,0 +1,12 @@
+---
+server:
+  applicationConnectors:
+    - type: http
+      port: 8080  # 应用程序监听的端口
+  adminConnectors:
+    - type: http
+      port: 8081
+logging:
+  level: INFO
+  loggers:
+    com.example: DEBUG

@@ -1,0 +1,5 @@
+com\example\coin_calculatorApplication.class
+com\example\api\CoinApi.class
+com\example\coin_calculatorConfiguration.class
+com\example\core\CoinRequest.class
+com\example\core\CoinService.class
