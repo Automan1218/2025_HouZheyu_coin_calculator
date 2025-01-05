@@ -4,21 +4,21 @@ import java.util.List;
 
 public class CoinRequest {
     private double targetAmount;
-    private List<Double> value;
+    private List<Object> value; // 修改为 List<Object> 以兼容字符串和数字
 
     public double getTargetAmount() {
         return targetAmount;
-    }
-
-    public List<Double> getValue() {
-        return value;
     }
 
     public void setTargetAmount(double targetAmount) {
         this.targetAmount = targetAmount;
     }
 
-    public void setValue(List<Double> value) {
+    public List<Object> getValue() {
+        return value;
+    }
+
+    public void setValue(List<Object> value) {
         this.value = value;
     }
 }

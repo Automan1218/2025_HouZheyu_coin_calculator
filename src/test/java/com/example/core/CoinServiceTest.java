@@ -54,7 +54,7 @@ public class CoinServiceTest {
         // 构造请求，包含无效的硬币面值
         CoinRequest request = new CoinRequest();
         request.setTargetAmount(7.03);
-        request.setValue(Arrays.asList(-1.0, 0.5, 1.0));
+        request.setValue(Arrays.asList(1.0, 0.5, 1.0, null, 5.0));
 
         // 调用 Controller
         Response response = CoinApi.getMinCoins(request);
