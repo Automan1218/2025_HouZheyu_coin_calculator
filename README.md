@@ -19,7 +19,7 @@ The Coin Calculator Backend is a RESTful API designed to calculate the minimum n
 
 1. **Clone the backend repository**:
    ```bash
-   git clone https://github.com/<your-username>/coin_calculator.git
+   git clone https://github.com/Automan1218/2025_HouZheyu_coin_calculator.git
    cd coin_calculator
    ```
 
@@ -55,7 +55,7 @@ The Coin Calculator Backend is a RESTful API designed to calculate the minimum n
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/<your-username>/coin_calculator.git
+   git clone https://github.com/Automan1218/2025_HouZheyu_coin_calculator.git
    cd coin_calculator
    ```
 
